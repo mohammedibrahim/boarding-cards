@@ -1,6 +1,6 @@
 {
-    "name": "mibrahim/boarding-cards",
-    "description": "Sort Boarding cards for passengers",
+    "name": "boarding-cards",
+    "description": "Sort Boarding cards",
     "require": {
         "phpunit/phpunit": "^6.4"
     },

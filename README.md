@@ -1,15 +1,12 @@
 # Boarding Card Sorter
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
-- [Boarding Card Sorter ](#boarding-card-sorter)
-	- [Description](#description)
-	- [Installation](#installation)
-	- [How To use](#how-to-use)
-	- [New Transportation Type](#new-transportation-type)
-	- [New Boarding Card Attribute](#new-boarding-card-attribute)
-	- [Test Cases](#test-cases)
-	
+- [Description](#description)
+- [Installation](#installation)
+- [How To use](#how-to-use)
+- [New Transportation Type](#new-transportation-type)
+- [New Boarding Card Attribute](#new-boarding-card-attribute)
+- [Test Cases](#test-cases)
 <!-- /TOC -->
 
 ## Description

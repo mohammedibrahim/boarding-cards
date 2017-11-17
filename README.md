@@ -201,11 +201,27 @@ class NewTransportationCard extends AbstractBoardingCard implements
 ```
 Available custom attributes for boarding cards is 
 ```
+//Baggage Details
+//'baggage_details' => 'Baggage will we automatically transferred from your last leg',
+
 BoardingCards\Contracts\BaggageBoardingCardAttributes;
+
+// Gate Number
+//'gate_number' => '22',
+
 BoardingCards\Contracts\GateBoardingCardAttributes;
+
+//Seat Number
+//'seat_number' => '7B',
+
 BoardingCards\Contracts\SeatableBoardingCardAttributes;
+
+// Trasportation Number eg. Train No. 45
+//'transportation_number' => 'SK22',
+
 BoardingCards\Contracts\TransportationNumberBoardingCardAttributes;
 ```
+
 To create a new custom attribute for a boarding card
 
 Go to 

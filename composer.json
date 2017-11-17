@@ -1,0 +1,16 @@
+{
+    "name": "mibrahim/boarding-cards",
+    "description": "Sort Boarding cards for passengers",
+    "require": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {"BoardingCards\\" : "app"}
+    },
+    "authors": [
+        {
+            "name": "Mohamed Ibrahim",
+            "email": "m.ibrahim@integrateddev.com"
+        }
+    ]
+}

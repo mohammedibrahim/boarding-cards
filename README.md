@@ -74,7 +74,7 @@ Create a new class
 <?php namespace BoardingCards\BoardingCardsTypes;
 
 /**
- * Train Boarding card class.
+ * New Transportation Boarding card class.
  *
  * Class AbstractBoardingCards
  * @package BoardingCards\BoardingCardsTypes

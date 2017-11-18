@@ -413,11 +413,11 @@ NewTransportationCard::instance()->createBoardingCard([
 ```
 
 ## New Output Format
-To create a new change the output format
+To create a new output format
  
 Go to
 ```
-OutputFormater
+boarding-cards -> app -> OutputFormater
 ```
 Create a new class that extend AbstractStringOutputFormat class and implement OutputFormat interface
  

@@ -11,6 +11,7 @@
 namespace BoardingCards\BoardingCardsTypes;
 
 use BoardingCards\Contracts\GeneralBoardingCardAttributes;
+use BoardingCards\Contracts\OutputFormat;
 use BoardingCards\Exceptions\BoardingCardsException;
 
 /**
@@ -161,10 +162,11 @@ Abstract class AbstractBoardingCard implements GeneralBoardingCardAttributes
     }
 
     /**
-     * Output Boarding Card Text to string.
+     * Output Boarding Card details.
      *
+     * @param OutputFormat $format
      * @return mixed
      */
-    abstract public function outputToString();
+    abstract public function output(OutputFormat $format);
 
 }

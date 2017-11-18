@@ -10,6 +10,7 @@
 
 namespace BoardingCards\BoardingCardsTypes;
 
+use BoardingCards\Contracts\OutputFormat;
 use BoardingCards\Contracts\SeatableBoardingCardAttributes;
 use BoardingCards\Contracts\TransportationNumberBoardingCardAttributes;
 
@@ -94,18 +95,19 @@ class TrainBoardingCard extends AbstractBoardingCard implements
     }
 
     /**
-     * Output Boarding Card Text to string.
+     * Output Boarding Card details.
      *
+     * @param OutputFormat $format
      * @return mixed
      */
-    public function outputToString()
+    public function output(OutputFormat $format)
     {
-        return sprintf(
+        return $format->format([
             'Take train %s from %s to %s. Sit in seat %s.',
             $this->getTransportationNumber(),
             $this->getFrom(),
             $this->getTo(),
             $this->getSeatNumber()
-        );
+        ]);
     }
 }

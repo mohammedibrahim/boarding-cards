@@ -15,6 +15,7 @@ use BoardingCards\BoardingCardsTypes\FlightBoardingCard;
 use BoardingCards\BoardingCardsTypes\TrainBoardingCard;
 use BoardingCards\Exceptions\BoardingCardsException;
 use BoardingCards\Logic\SortingBoardingCards;
+use BoardingCards\OutputFormats\StringOutputFormat;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -27,8 +28,6 @@ final class SortingBoardingCardsTest extends TestCase
 
     /**
      * Test if one or more tickets are missing!
-     *
-     * @TODO test test
      */
     public function testValidateErrors()
     {
@@ -237,7 +236,7 @@ final class SortingBoardingCardsTest extends TestCase
             'transportation_number' => '78A'
         ]));
 
-        $result = $boardingCards->sort()->outputToString("\n", false);
+        $result = $boardingCards->sort()->output(StringOutputFormat::instance(),"\n", false);
 
         $this->assertEquals(
             $result, "Take train 78A from Madrid to Barcelona. Sit in seat 45B.

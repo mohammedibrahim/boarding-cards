@@ -11,7 +11,9 @@
 namespace BoardingCards\Logic;
 
 use BoardingCards\BoardingCardsTypes\AbstractBoardingCard;
+use BoardingCards\Contracts\OutputFormat;
 use BoardingCards\Exceptions\BoardingCardsException;
+use BoardingCards\OutputFormats\StringOutputFormat;
 
 /**
  * Boarding Cards Sorter contains Logic of cards sorting.
@@ -116,14 +118,15 @@ class SortingBoardingCards
     }
 
     /**
-     * Return boarding cards as string
+     * Return boarding cards as string.
      *
+     * @param OutputFormat $format
      * @param string $separator
      * @param bool $echo
      * @return string
      * @throws BoardingCardsException
      */
-    public function outputToString($separator = "\n", $echo = true)
+    public function output(OutputFormat $format, $separator = "\n", $echo = true)
     {
         if (empty($this->_boardingCards)) {
             throw new BoardingCardsException('You must add at least one boarding card!');
@@ -132,7 +135,7 @@ class SortingBoardingCards
         $boardingCardsToStrings = [];
 
         foreach ($this->_boardingCards as $boardingCard) {
-            $boardingCardsToStrings[] = $boardingCard->outputToString();
+            $boardingCardsToStrings[] = $boardingCard->output($format);
         }
 
         $boardingCardsToStrings[] = 'You have arrived at your final destination.';

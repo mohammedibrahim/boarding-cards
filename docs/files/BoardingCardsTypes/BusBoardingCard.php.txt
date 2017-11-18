@@ -10,6 +10,8 @@
 
 namespace BoardingCards\BoardingCardsTypes;
 
+use BoardingCards\Contracts\OutputFormat;
+
 /**
  * Bus Boarding card class.
  *
@@ -19,16 +21,17 @@ namespace BoardingCards\BoardingCardsTypes;
 class BusBoardingCard extends AbstractBoardingCard
 {
     /**
-     * Output Boarding Card Text to string.
+     * Output Boarding Card details.
      *
+     * @param OutputFormat $format
      * @return mixed
      */
-    public function outputToString()
+    public function output(OutputFormat $format)
     {
-        return sprintf(
+        return $format->format([
             'Take the airport bus from %s to %s. No seat assignment.',
             $this->getFrom(),
             $this->getTo()
-        );
+        ]);
     }
 }

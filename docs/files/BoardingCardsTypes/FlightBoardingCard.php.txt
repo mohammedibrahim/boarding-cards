@@ -12,6 +12,7 @@ namespace BoardingCards\BoardingCardsTypes;
 
 use BoardingCards\Contracts\BaggageBoardingCardAttributes;
 use BoardingCards\Contracts\GateBoardingCardAttributes;
+use BoardingCards\Contracts\OutputFormat;
 use BoardingCards\Contracts\SeatableBoardingCardAttributes;
 use BoardingCards\Contracts\TransportationNumberBoardingCardAttributes;
 
@@ -160,13 +161,14 @@ class FlightBoardingCard extends AbstractBoardingCard implements
     }
 
     /**
-     * Output Boarding Card Text to string.
+     * Output Boarding Card details.
      *
+     * @param OutputFormat $format
      * @return mixed
      */
-    public function outputToString()
+    public function output(OutputFormat $format)
     {
-        return sprintf(
+        return $format->format([
             'From %s, take flight %s to %s. Gate %s, Seat %s, %s.',
             $this->getFrom(),
             $this->getTransportationNumber(),
@@ -174,6 +176,6 @@ class FlightBoardingCard extends AbstractBoardingCard implements
             $this->getGateNumber(),
             $this->getSeatNumber(),
             $this->getBaggageDetails()
-        );
+        ]);
     }
 }

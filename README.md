@@ -438,7 +438,19 @@ class NewOutputFormat extends AbstractStringOutputFormat implements OutputFormat
      */
     public function format($data)
     {
-        // output the result as you wish.
+        // output the result as you wish for each card.
+    }
+    
+    /**
+     * Output boarding cards
+     *
+     * @param $boardingCards
+     * @return mixed
+     */
+    public function allCardsFormat($boardingCards)
+    {
+        // Output the resutl as you wish for all cards.
+        // Final output.
     }
 }
 ```

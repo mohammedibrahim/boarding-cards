@@ -140,12 +140,13 @@ class SortingBoardingCards
 
         $boardingCardsToStrings[] = 'You have arrived at your final destination.';
 
-        $output = implode($separator, $boardingCardsToStrings) . $separator;
+        $output = $format->allCardsFormat($boardingCardsToStrings, $separator);
 
-        if(!$echo){
+        if (!$echo) {
             return $output;
         }
 
         echo $output;
+
     }
 }

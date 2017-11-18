@@ -7,6 +7,7 @@
  * @version     v.1.0 (08/11/2017)
  * @copyright   Copyright (c) 2016, Integrated Development
  */
+
 namespace BoardingCards\OutputFormats;
 
 use BoardingCards\Contracts\OutputFormat;
@@ -37,5 +38,14 @@ abstract class AbstractOutputFormat implements OutputFormat
      * @return mixed
      */
     abstract public function format($data);
+
+    /**
+     * Output boarding cards
+     *
+     * @param $boardingCardsToStrings
+     * @param string $separator
+     * @return mixed
+     */
+    abstract public function allCardsFormat($boardingCardsToStrings, $separator = '');
 
 }

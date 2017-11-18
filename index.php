@@ -14,6 +14,7 @@ use BoardingCards\BoardingCardsTypes\BusBoardingCard;
 use BoardingCards\BoardingCardsTypes\FlightBoardingCard;
 use BoardingCards\BoardingCardsTypes\TrainBoardingCard;
 use BoardingCards\Logic\SortingBoardingCards;
+use BoardingCards\OutputFormats\StringOutputFormat;
 
 include __DIR__ . '/vendor/autoload.php';
 
@@ -66,7 +67,7 @@ class MainClass
             'transportation_number' => '78A'
         ]));
 
-        $boardingCards->sort()->outputToString();
+        $boardingCards->sort()->output(StringOutputFormat::instance());
     }
 
 }

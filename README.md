@@ -6,6 +6,7 @@
 - [How To use](#how-to-use)
 - [New Transportation Type](#new-transportation-type)
 - [New Boarding Card Attribute](#new-boarding-card-attribute)
+- [New Output Format](#new-output-format)
 - [PHP Docs](#php-docs)
 - [Test Cases](#test-cases)
 <!-- /TOC -->
@@ -67,7 +68,7 @@ $boardingCards->addBoardingCard(TrainBoardingCard::instance()->createBoardingCar
 ]));
 
 //Sort Cards and output as string
-$boardingCards->sort()->outputToString();
+$boardingCards->sort()->output(StringOutputFormat::instance());
 ```
 
 ## New Transportation Type
@@ -409,6 +410,42 @@ NewTransportationCard::instance()->createBoardingCard([
     'transportation_number' => 'SK22',
     'custom_boarding_card_attribute' => 'Custom Text Value for new custom attribute',
 ])
+```
+
+##New Output Format
+To create a new change the output format
+ 
+Go to
+```
+OutputFormater
+```
+Create a new class that extend AbstractStringOutputFormat class and implement OutputFormat interface
+ 
+```
+/**
+ * New output format.
+ *
+ * Class NewOutputFormat
+ * @package BoardingCards\OutputFormats
+ */
+class NewOutputFormat extends AbstractStringOutputFormat implements OutputFormat
+{
+    /**
+     * Format boarding card output
+     *
+     * @param $data
+     * @return mixed
+     */
+    public function format($data)
+    {
+        // output the result as you wish.
+    }
+}
+```
+
+To use it
+```
+$boardingCards->sort()->output(NewOutputFormat::instance());
 ```
 
 ## PHP Docs

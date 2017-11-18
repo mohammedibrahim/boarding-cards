@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <checkstyle version="1.3.0">
   <file name="Exceptions/BoardingCardsException.php"/>
+  <file name="Contracts/OutputFormat.php"/>
+  <file name="OutputFormats/AbstractStringOutputFormat.php"/>
   <file name="Contracts/GateBoardingCardAttributes.php"/>
   <file name="Logic/SortingBoardingCards.php"/>
   <file name="Contracts/BaggageBoardingCardAttributes.php"/>
@@ -11,5 +13,6 @@
   <file name="BoardingCardsTypes/BusBoardingCard.php"/>
   <file name="Contracts/SeatableBoardingCardAttributes.php"/>
   <file name="BoardingCardsTypes/FlightBoardingCard.php"/>
+  <file name="OutputFormats/StringOutputFormat.php"/>
   <file name="BoardingCardsTypes/TrainBoardingCard.php"/>
 </checkstyle>

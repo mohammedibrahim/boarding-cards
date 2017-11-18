@@ -6,6 +6,7 @@
 - [How To use](#how-to-use)
 - [New Transportation Type](#new-transportation-type)
 - [New Boarding Card Attribute](#new-boarding-card-attribute)
+- [PHP Docs](#php-docs)
 - [Test Cases](#test-cases)
 <!-- /TOC -->
 
@@ -408,6 +409,24 @@ NewTransportationCard::instance()->createBoardingCard([
     'custom_boarding_card_attribute' => 'Custom Text Value for new custom attribute',
 ])
 ```
+
+## PHP Docs
+
+To View php docs 
+
+Go to 
+```
+http://[your_app_url]/docs/index.html
+```
+
+To Update docs 
+
+At app root directory Run
+
+```
+php vendor/bin/phpdoc -d app/ -t docs --title="Boarding Cards Sorter"
+```
+
 ## Test Cases
 
 To Run test cases. From app root directory

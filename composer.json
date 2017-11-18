@@ -1,8 +1,11 @@
 {
     "name": "boarding-cards",
     "description": "Sort Boarding cards",
-    "require": {
-        "phpunit/phpunit": "^6.4"
+    "require-dev": {
+        "phpunit/phpunit": "^6.4",
+        "dompdf/dompdf": "^0.8.1",
+        "phpdocumentor/reflection-docblock": "~2.0",
+        "phpdocumentor/phpdocumentor": "^2.9"
     },
     "autoload": {
         "psr-4": {"BoardingCards\\" : "app"}
@@ -12,5 +15,7 @@
             "name": "Mohamed Ibrahim",
             "email": "m.ibrahim@integrateddev.com"
         }
-    ]
+    ],
+    "require": {
+    }
 }

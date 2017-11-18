@@ -10,10 +10,9 @@
 
 namespace BoardingCards\Logic;
 
-use BoardingCards\BoardingCardsTypes\AbstractBoardingCard;
+use BoardingCards\Contracts\GeneralBoardingCardAttributes;
 use BoardingCards\Contracts\OutputFormat;
 use BoardingCards\Exceptions\BoardingCardsException;
-use BoardingCards\OutputFormats\StringOutputFormat;
 
 /**
  * Boarding Cards Sorter contains Logic of cards sorting.
@@ -31,11 +30,12 @@ class SortingBoardingCards
     protected $_boardingCards = [];
 
     /**
-     * Add Boarding Cards
-     * @param AbstractBoardingCard $boardingCards
+     * Add Boarding Cards.
+     *
+     * @param GeneralBoardingCardAttributes $boardingCards
      * @return $this
      */
-    public function addBoardingCard(AbstractBoardingCard $boardingCards)
+    public function addBoardingCard(GeneralBoardingCardAttributes $boardingCards)
     {
         $this->_boardingCards[] = $boardingCards;
 

@@ -29,8 +29,8 @@ interface OutputFormat
     /**
      * Output boarding cards
      *
-     * @param $boardingCardsToStrings
+     * @param $boardingCards
      * @return mixed
      */
-    public function allCardsFormat($boardingCardsToStrings);
+    public function allCardsFormat($boardingCards);
 }

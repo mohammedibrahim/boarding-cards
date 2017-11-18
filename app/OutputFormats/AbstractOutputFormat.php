@@ -42,9 +42,9 @@ abstract class AbstractOutputFormat implements OutputFormat
     /**
      * Output boarding cards
      *
-     * @param $boardingCardsToStrings
+     * @param $boardingCards
      * @return mixed
      */
-    abstract public function allCardsFormat($boardingCardsToStrings);
+    abstract public function allCardsFormat($boardingCards);
 
 }

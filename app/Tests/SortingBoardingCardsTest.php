@@ -236,7 +236,7 @@ final class SortingBoardingCardsTest extends TestCase
             'transportation_number' => '78A'
         ]));
 
-        $result = $boardingCards->sort()->output(StringOutputFormat::instance(),"\n", false);
+        $result = $boardingCards->sort()->output(StringOutputFormat::instance(), false);
 
         $this->assertEquals(
             $result, "Take train 78A from Madrid to Barcelona. Sit in seat 45B.

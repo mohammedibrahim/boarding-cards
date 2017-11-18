@@ -21,6 +21,11 @@ use BoardingCards\Contracts\OutputFormat;
 class StringOutputFormat extends AbstractOutputFormat implements OutputFormat
 {
 
+    /**
+     * Separator between text.
+     *
+     * @var string
+     */
     private $_separator;
 
     /**
@@ -43,6 +48,7 @@ class StringOutputFormat extends AbstractOutputFormat implements OutputFormat
     static public function instance($separator = "\n")
     {
         $instance = get_called_class();
+
         return new $instance($separator);
     }
 
@@ -60,13 +66,13 @@ class StringOutputFormat extends AbstractOutputFormat implements OutputFormat
     /**
      * Output boarding cards
      *
-     * @param $boardingCardsToStrings
+     * @param $boardingCards
      * @return mixed
      */
-    public function allCardsFormat($boardingCardsToStrings)
+    public function allCardsFormat($boardingCards)
     {
         $separator = $this->_separator;
 
-        return implode($separator, $boardingCardsToStrings) . $separator;
+        return implode($separator, $boardingCards) . $separator;
     }
 }

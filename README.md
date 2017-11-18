@@ -412,7 +412,7 @@ NewTransportationCard::instance()->createBoardingCard([
 ])
 ```
 
-##New Output Format
+## New Output Format
 To create a new change the output format
  
 Go to

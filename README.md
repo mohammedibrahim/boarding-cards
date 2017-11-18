@@ -66,6 +66,7 @@ $boardingCards->addBoardingCard(TrainBoardingCard::instance()->createBoardingCar
     'transportation_number' => '78A'
 ]));
 
+//Sort Cards and output as string
 $boardingCards->sort()->outputToString();
 ```
 

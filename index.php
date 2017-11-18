@@ -1,4 +1,14 @@
-<?php namespace BoardingCards;
+<?php
+/**
+ * Boarding Cards Main Class
+ *
+ * @package     Boarding Cards
+ * @author      Mohamed Ibrahim <m.ibrahim@integrateddev.com>
+ * @version     v.1.0 (08/11/2017)
+ * @copyright   Copyright (c) 2016, Integrated Development
+ */
+
+namespace BoardingCards;
 
 use BoardingCards\BoardingCardsTypes\BusBoardingCard;
 use BoardingCards\BoardingCardsTypes\FlightBoardingCard;
@@ -10,9 +20,18 @@ include __DIR__ . '/vendor/autoload.php';
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
+/**
+ * Main Class
+ *
+ * Class MainClass
+ * @package BoardingCards
+ */
 class MainClass
 {
 
+    /**
+     * MainClass constructor.
+     */
     function __construct()
     {
         $boardingCards = new SortingBoardingCards();

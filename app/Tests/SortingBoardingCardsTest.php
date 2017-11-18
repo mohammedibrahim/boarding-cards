@@ -58,7 +58,7 @@ final class SortingBoardingCardsTest extends TestCase
             'transportation_number' => '78A'
         ]));
 
-        $boardingCards->sort()->outputToString();
+        $boardingCards->sort()->output(StringOutputFormat::instance());
 
     }
 
@@ -73,7 +73,7 @@ final class SortingBoardingCardsTest extends TestCase
 
         $boardingCards = new SortingBoardingCards();
 
-        $boardingCards->sort()->outputToString();
+        $boardingCards->sort()->output(StringOutputFormat::instance());
     }
 
     /**

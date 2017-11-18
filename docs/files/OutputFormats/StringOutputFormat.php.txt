@@ -17,7 +17,7 @@ use BoardingCards\Contracts\OutputFormat;
  * Class StringOutputFormat
  * @package BoardingCards\OutputFormats
  */
-class StringOutputFormat extends AbstractStringOutputFormat implements OutputFormat
+class StringOutputFormat extends AbstractOutputFormat implements OutputFormat
 {
     /**
      * Format boarding card output

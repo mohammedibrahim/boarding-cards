@@ -18,33 +18,33 @@
 <text text-anchor="middle" x="463.739" y="-629.2" font-family="Times,serif" font-size="11.00" fill="gray">BoardingCards</text>
 </g>
 <g id="clust3" class="cluster"><title>cluster_\BoardingCards\Exceptions</title>
-<path fill="none" stroke="gray" d="M727.479,-462C727.479,-462 884.479,-462 884.479,-462 890.479,-462 896.479,-468 896.479,-474 896.479,-474 896.479,-522 896.479,-522 896.479,-528 890.479,-534 884.479,-534 884.479,-534 727.479,-534 727.479,-534 721.479,-534 715.479,-528 715.479,-522 715.479,-522 715.479,-474 715.479,-474 715.479,-468 721.479,-462 727.479,-462"/>
-<text text-anchor="middle" x="805.979" y="-521.2" font-family="Times,serif" font-size="11.00" fill="gray">Exceptions</text>
+<path fill="none" stroke="gray" d="M727.479,-542C727.479,-542 884.479,-542 884.479,-542 890.479,-542 896.479,-548 896.479,-554 896.479,-554 896.479,-602 896.479,-602 896.479,-608 890.479,-614 884.479,-614 884.479,-614 727.479,-614 727.479,-614 721.479,-614 715.479,-608 715.479,-602 715.479,-602 715.479,-554 715.479,-554 715.479,-548 721.479,-542 727.479,-542"/>
+<text text-anchor="middle" x="805.979" y="-601.2" font-family="Times,serif" font-size="11.00" fill="gray">Exceptions</text>
 </g>
 <g id="clust4" class="cluster"><title>cluster_\BoardingCards\Contracts</title>
-<path fill="none" stroke="gray" d="M36,-208C36,-208 328,-208 328,-208 334,-208 340,-214 340,-220 340,-220 340,-538 340,-538 340,-544 334,-550 328,-550 328,-550 36,-550 36,-550 30,-550 24,-544 24,-538 24,-538 24,-220 24,-220 24,-214 30,-208 36,-208"/>
-<text text-anchor="middle" x="182" y="-537.2" font-family="Times,serif" font-size="11.00" fill="gray">Contracts</text>
+<path fill="none" stroke="gray" d="M36,-187C36,-187 328,-187 328,-187 334,-187 340,-193 340,-199 340,-199 340,-517 340,-517 340,-523 334,-529 328,-529 328,-529 36,-529 36,-529 30,-529 24,-523 24,-517 24,-517 24,-199 24,-199 24,-193 30,-187 36,-187"/>
+<text text-anchor="middle" x="182" y="-516.2" font-family="Times,serif" font-size="11.00" fill="gray">Contracts</text>
 </g>
-<g id="clust5" class="cluster"><title>cluster_\BoardingCards\OutputFormats</title>
-<path fill="none" stroke="gray" d="M432.239,-542C432.239,-542 870.979,-542 870.979,-542 876.979,-542 882.979,-548 882.979,-554 882.979,-554 882.979,-602 882.979,-602 882.979,-608 876.979,-614 870.979,-614 870.979,-614 432.239,-614 432.239,-614 426.239,-614 420.239,-608 420.239,-602 420.239,-602 420.239,-554 420.239,-554 420.239,-548 426.239,-542 432.239,-542"/>
-<text text-anchor="middle" x="651.609" y="-601.2" font-family="Times,serif" font-size="11.00" fill="gray">OutputFormats</text>
+<g id="clust5" class="cluster"><title>cluster_\BoardingCards\Logic</title>
+<path fill="none" stroke="gray" d="M733.979,-462C733.979,-462 877.979,-462 877.979,-462 883.979,-462 889.979,-468 889.979,-474 889.979,-474 889.979,-522 889.979,-522 889.979,-528 883.979,-534 877.979,-534 877.979,-534 733.979,-534 733.979,-534 727.979,-534 721.979,-528 721.979,-522 721.979,-522 721.979,-474 721.979,-474 721.979,-468 727.979,-462 733.979,-462"/>
+<text text-anchor="middle" x="805.979" y="-521.2" font-family="Times,serif" font-size="11.00" fill="gray">Logic</text>
 </g>
-<g id="clust6" class="cluster"><title>cluster_\BoardingCards\Logic</title>
-<path fill="none" stroke="gray" d="M733.979,-382C733.979,-382 877.979,-382 877.979,-382 883.979,-382 889.979,-388 889.979,-394 889.979,-394 889.979,-442 889.979,-442 889.979,-448 883.979,-454 877.979,-454 877.979,-454 733.979,-454 733.979,-454 727.979,-454 721.979,-448 721.979,-442 721.979,-442 721.979,-394 721.979,-394 721.979,-388 727.979,-382 733.979,-382"/>
-<text text-anchor="middle" x="805.979" y="-441.2" font-family="Times,serif" font-size="11.00" fill="gray">Logic</text>
-</g>
-<g id="clust7" class="cluster"><title>cluster_\BoardingCards\Tests</title>
+<g id="clust6" class="cluster"><title>cluster_\BoardingCards\Tests</title>
 <path fill="none" stroke="gray" d="M720.479,-114C720.479,-114 891.479,-114 891.479,-114 897.479,-114 903.479,-120 903.479,-126 903.479,-126 903.479,-174 903.479,-174 903.479,-180 897.479,-186 891.479,-186 891.479,-186 720.479,-186 720.479,-186 714.479,-186 708.479,-180 708.479,-174 708.479,-174 708.479,-126 708.479,-126 708.479,-120 714.479,-114 720.479,-114"/>
 <text text-anchor="middle" x="805.979" y="-173.2" font-family="Times,serif" font-size="11.00" fill="gray">Tests</text>
 </g>
-<g id="clust8" class="cluster"><title>cluster_\BoardingCards\BoardingCardsTypes</title>
-<path fill="none" stroke="gray" d="M452.239,-194C452.239,-194 870.979,-194 870.979,-194 876.979,-194 882.979,-200 882.979,-206 882.979,-206 882.979,-362 882.979,-362 882.979,-368 876.979,-374 870.979,-374 870.979,-374 452.239,-374 452.239,-374 446.239,-374 440.239,-368 440.239,-362 440.239,-362 440.239,-206 440.239,-206 440.239,-200 446.239,-194 452.239,-194"/>
-<text text-anchor="middle" x="661.609" y="-361.2" font-family="Times,serif" font-size="11.00" fill="gray">BoardingCardsTypes</text>
+<g id="clust7" class="cluster"><title>cluster_\BoardingCards\BoardingCardsTypes</title>
+<path fill="none" stroke="gray" d="M452.239,-274C452.239,-274 870.979,-274 870.979,-274 876.979,-274 882.979,-280 882.979,-286 882.979,-286 882.979,-442 882.979,-442 882.979,-448 876.979,-454 870.979,-454 870.979,-454 452.239,-454 452.239,-454 446.239,-454 440.239,-448 440.239,-442 440.239,-442 440.239,-286 440.239,-286 440.239,-280 446.239,-274 452.239,-274"/>
+<text text-anchor="middle" x="661.609" y="-441.2" font-family="Times,serif" font-size="11.00" fill="gray">BoardingCardsTypes</text>
+</g>
+<g id="clust8" class="cluster"><title>cluster_\BoardingCards\OutputFormats</title>
+<path fill="none" stroke="gray" d="M452.239,-194C452.239,-194 870.979,-194 870.979,-194 876.979,-194 882.979,-200 882.979,-206 882.979,-206 882.979,-254 882.979,-254 882.979,-260 876.979,-266 870.979,-266 870.979,-266 452.239,-266 452.239,-266 446.239,-266 440.239,-260 440.239,-254 440.239,-254 440.239,-206 440.239,-206 440.239,-200 446.239,-194 452.239,-194"/>
+<text text-anchor="middle" x="661.609" y="-253.2" font-family="Times,serif" font-size="11.00" fill="gray">OutputFormats</text>
 </g>
 <!-- \\BoardingCards\\Exceptions\\BoardingCardsException -->
 <g id="node1" class="node"><title>\\BoardingCards\\Exceptions\\BoardingCardsException</title>
-<polygon fill="none" stroke="black" points="888.479,-506 723.479,-506 723.479,-470 888.479,-470 888.479,-506"/>
-<text text-anchor="middle" x="805.979" y="-485.2" font-family="Courier,monospace" font-size="11.00">BoardingCardsException</text>
+<polygon fill="none" stroke="black" points="888.479,-586 723.479,-586 723.479,-550 888.479,-550 888.479,-586"/>
+<text text-anchor="middle" x="805.979" y="-565.2" font-family="Courier,monospace" font-size="11.00">BoardingCardsException</text>
 </g>
 <!-- \\Exception -->
 <g id="node16" class="node"><title>\\Exception</title>
@@ -53,72 +53,46 @@
 </g>
 <!-- \\BoardingCards\\Exceptions\\BoardingCardsException&#45;&gt;\\Exception -->
 <g id="edge1" class="edge"><title>\\BoardingCards\\Exceptions\\BoardingCardsException&#45;&gt;\\Exception</title>
-<path fill="none" stroke="black" d="M723.225,-469.834C717.802,-466.522 712.793,-462.613 708.479,-458 624.835,-368.556 704.53,-296.726 644.479,-190 622.087,-150.206 582.4,-114.896 554.999,-93.5029"/>
-<polygon fill="none" stroke="black" points="556.991,-90.6199 546.923,-87.321 552.736,-96.1785 556.991,-90.6199"/>
+<path fill="none" stroke="black" d="M723.401,-550.36C717.865,-546.935 712.786,-542.856 708.479,-538 604.119,-420.356 717.969,-329.033 644.479,-190 623.141,-149.631 583.216,-114.45 555.474,-93.244"/>
+<polygon fill="none" stroke="black" points="557.393,-90.3089 547.289,-87.1211 553.2,-95.914 557.393,-90.3089"/>
 </g>
 <!-- \\BoardingCards\\Contracts\\OutputFormat -->
 <g id="node2" class="node"><title>\\BoardingCards\\Contracts\\OutputFormat</title>
-<polygon fill="none" stroke="black" points="231,-522 133,-522 133,-486 231,-486 231,-522"/>
-<text text-anchor="middle" x="182" y="-501.2" font-family="Courier,monospace" font-size="11.00">OutputFormat</text>
+<polygon fill="none" stroke="black" points="231,-231 133,-231 133,-195 231,-195 231,-231"/>
+<text text-anchor="middle" x="182" y="-210.2" font-family="Courier,monospace" font-size="11.00">OutputFormat</text>
 </g>
 <!-- \\BoardingCards\\Contracts\\GateBoardingCardAttributes -->
 <g id="node3" class="node"><title>\\BoardingCards\\Contracts\\GateBoardingCardAttributes</title>
-<polygon fill="none" stroke="black" points="278,-468 86,-468 86,-432 278,-432 278,-468"/>
-<text text-anchor="middle" x="182" y="-447.2" font-family="Courier,monospace" font-size="11.00">GateBoardingCardAttributes</text>
+<polygon fill="none" stroke="black" points="278,-501 86,-501 86,-465 278,-465 278,-501"/>
+<text text-anchor="middle" x="182" y="-480.2" font-family="Courier,monospace" font-size="11.00">GateBoardingCardAttributes</text>
 </g>
 <!-- \\BoardingCards\\Contracts\\BaggageBoardingCardAttributes -->
 <g id="node4" class="node"><title>\\BoardingCards\\Contracts\\BaggageBoardingCardAttributes</title>
-<polygon fill="none" stroke="black" points="288,-414 76,-414 76,-378 288,-378 288,-414"/>
-<text text-anchor="middle" x="182" y="-393.2" font-family="Courier,monospace" font-size="11.00">BaggageBoardingCardAttributes</text>
+<polygon fill="none" stroke="black" points="288,-447 76,-447 76,-411 288,-411 288,-447"/>
+<text text-anchor="middle" x="182" y="-426.2" font-family="Courier,monospace" font-size="11.00">BaggageBoardingCardAttributes</text>
 </g>
 <!-- \\BoardingCards\\Contracts\\TransportationNumberBoardingCardAttributes -->
 <g id="node5" class="node"><title>\\BoardingCards\\Contracts\\TransportationNumberBoardingCardAttributes</title>
-<polygon fill="none" stroke="black" points="332,-360 32,-360 32,-324 332,-324 332,-360"/>
-<text text-anchor="middle" x="182" y="-339.2" font-family="Courier,monospace" font-size="11.00">TransportationNumberBoardingCardAttributes</text>
+<polygon fill="none" stroke="black" points="332,-393 32,-393 32,-357 332,-357 332,-393"/>
+<text text-anchor="middle" x="182" y="-372.2" font-family="Courier,monospace" font-size="11.00">TransportationNumberBoardingCardAttributes</text>
 </g>
 <!-- \\BoardingCards\\Contracts\\GeneralBoardingCardAttributes -->
 <g id="node6" class="node"><title>\\BoardingCards\\Contracts\\GeneralBoardingCardAttributes</title>
-<polygon fill="none" stroke="black" points="288,-306 76,-306 76,-270 288,-270 288,-306"/>
-<text text-anchor="middle" x="182" y="-285.2" font-family="Courier,monospace" font-size="11.00">GeneralBoardingCardAttributes</text>
+<polygon fill="none" stroke="black" points="288,-339 76,-339 76,-303 288,-303 288,-339"/>
+<text text-anchor="middle" x="182" y="-318.2" font-family="Courier,monospace" font-size="11.00">GeneralBoardingCardAttributes</text>
 </g>
 <!-- \\BoardingCards\\Contracts\\SeatableBoardingCardAttributes -->
 <g id="node7" class="node"><title>\\BoardingCards\\Contracts\\SeatableBoardingCardAttributes</title>
-<polygon fill="none" stroke="black" points="291.5,-252 72.5,-252 72.5,-216 291.5,-216 291.5,-252"/>
-<text text-anchor="middle" x="182" y="-231.2" font-family="Courier,monospace" font-size="11.00">SeatableBoardingCardAttributes</text>
-</g>
-<!-- \\BoardingCards\\OutputFormats\\AbstractStringOutputFormat -->
-<g id="node8" class="node"><title>\\BoardingCards\\OutputFormats\\AbstractStringOutputFormat</title>
-<polygon fill="none" stroke="black" points="620.239,-586 428.239,-586 428.239,-550 620.239,-550 620.239,-586"/>
-<text text-anchor="start" x="490.239" y="-571.2" font-family="Courier,monospace" font-size="11.00">«abstract»</text>
-<text text-anchor="start" x="436.239" y="-559.2" font-family="Courier,monospace" font-size="11.00">AbstractStringOutputFormat</text>
-</g>
-<!-- \\BoardingCards\\OutputFormats\\AbstractStringOutputFormat&#45;&gt;\\BoardingCards\\Contracts\\OutputFormat -->
-<g id="edge2" class="edge"><title>\\BoardingCards\\OutputFormats\\AbstractStringOutputFormat&#45;&gt;\\BoardingCards\\Contracts\\OutputFormat</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M428.011,-550.087C367.928,-538.785 292.273,-524.555 241.045,-514.919"/>
-<polygon fill="none" stroke="black" points="241.612,-511.464 231.137,-513.055 240.318,-518.343 241.612,-511.464"/>
-</g>
-<!-- \\BoardingCards\\OutputFormats\\StringOutputFormat -->
-<g id="node9" class="node"><title>\\BoardingCards\\OutputFormats\\StringOutputFormat</title>
-<polygon fill="none" stroke="black" points="874.979,-586 736.979,-586 736.979,-550 874.979,-550 874.979,-586"/>
-<text text-anchor="middle" x="805.979" y="-565.2" font-family="Courier,monospace" font-size="11.00">StringOutputFormat</text>
-</g>
-<!-- \\BoardingCards\\OutputFormats\\StringOutputFormat&#45;&gt;\\BoardingCards\\Contracts\\OutputFormat -->
-<g id="edge12" class="edge"><title>\\BoardingCards\\OutputFormats\\StringOutputFormat&#45;&gt;\\BoardingCards\\Contracts\\OutputFormat</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M736.833,-555.195C708.369,-550.196 674.904,-544.772 644.479,-541 500.041,-523.095 329.043,-512.008 241.327,-507.051"/>
-<polygon fill="none" stroke="black" points="241.486,-503.555 231.306,-506.492 241.095,-510.544 241.486,-503.555"/>
-</g>
-<!-- \\BoardingCards\\OutputFormats\\StringOutputFormat&#45;&gt;\\BoardingCards\\OutputFormats\\AbstractStringOutputFormat -->
-<g id="edge11" class="edge"><title>\\BoardingCards\\OutputFormats\\StringOutputFormat&#45;&gt;\\BoardingCards\\OutputFormats\\AbstractStringOutputFormat</title>
-<path fill="none" stroke="black" d="M736.904,-568C705.037,-568 666.347,-568 630.806,-568"/>
-<polygon fill="none" stroke="black" points="630.383,-564.5 620.383,-568 630.383,-571.5 630.383,-564.5"/>
+<polygon fill="none" stroke="black" points="291.5,-285 72.5,-285 72.5,-249 291.5,-249 291.5,-285"/>
+<text text-anchor="middle" x="182" y="-264.2" font-family="Courier,monospace" font-size="11.00">SeatableBoardingCardAttributes</text>
 </g>
 <!-- \\BoardingCards\\Logic\\SortingBoardingCards -->
-<g id="node10" class="node"><title>\\BoardingCards\\Logic\\SortingBoardingCards</title>
-<polygon fill="none" stroke="black" points="881.979,-426 729.979,-426 729.979,-390 881.979,-390 881.979,-426"/>
-<text text-anchor="middle" x="805.979" y="-405.2" font-family="Courier,monospace" font-size="11.00">SortingBoardingCards</text>
+<g id="node8" class="node"><title>\\BoardingCards\\Logic\\SortingBoardingCards</title>
+<polygon fill="none" stroke="black" points="881.979,-506 729.979,-506 729.979,-470 881.979,-470 881.979,-506"/>
+<text text-anchor="middle" x="805.979" y="-485.2" font-family="Courier,monospace" font-size="11.00">SortingBoardingCards</text>
 </g>
 <!-- \\BoardingCards\\Tests\\SortingBoardingCardsTest -->
-<g id="node11" class="node"><title>\\BoardingCards\\Tests\\SortingBoardingCardsTest</title>
+<g id="node9" class="node"><title>\\BoardingCards\\Tests\\SortingBoardingCardsTest</title>
 <polygon fill="none" stroke="black" points="895.479,-158 716.479,-158 716.479,-122 895.479,-122 895.479,-158"/>
 <text text-anchor="middle" x="805.979" y="-137.2" font-family="Courier,monospace" font-size="11.00">SortingBoardingCardsTest</text>
 </g>
@@ -128,81 +102,107 @@
 <text text-anchor="middle" x="524.239" y="-14.3" font-family="Times,serif" font-size="14.00" fill="gray">\PHPUnit\FrameworkTestCase</text>
 </g>
 <!-- \\BoardingCards\\Tests\\SortingBoardingCardsTest&#45;&gt;\\PHPUnit\\Framework\\TestCase -->
-<g id="edge3" class="edge"><title>\\BoardingCards\\Tests\\SortingBoardingCardsTest&#45;&gt;\\PHPUnit\\Framework\\TestCase</title>
+<g id="edge2" class="edge"><title>\\BoardingCards\\Tests\\SortingBoardingCardsTest&#45;&gt;\\PHPUnit\\Framework\\TestCase</title>
 <path fill="none" stroke="black" d="M780.126,-121.928C749.621,-100.562 695.627,-65.344 644.479,-45 634.182,-40.9046 623.126,-37.3567 612.049,-34.3032"/>
 <polygon fill="none" stroke="black" points="612.888,-30.9051 602.327,-31.7459 611.108,-37.6748 612.888,-30.9051"/>
 </g>
 <!-- \\BoardingCards\\BoardingCardsTypes\\AbstractBoardingCard -->
-<g id="node12" class="node"><title>\\BoardingCards\\BoardingCardsTypes\\AbstractBoardingCard</title>
-<polygon fill="none" stroke="black" points="600.239,-302 448.239,-302 448.239,-266 600.239,-266 600.239,-302"/>
-<text text-anchor="start" x="490.239" y="-287.2" font-family="Courier,monospace" font-size="11.00">«abstract»</text>
-<text text-anchor="start" x="456.239" y="-275.2" font-family="Courier,monospace" font-size="11.00">AbstractBoardingCard</text>
+<g id="node10" class="node"><title>\\BoardingCards\\BoardingCardsTypes\\AbstractBoardingCard</title>
+<polygon fill="none" stroke="black" points="600.239,-348 448.239,-348 448.239,-312 600.239,-312 600.239,-348"/>
+<text text-anchor="start" x="490.239" y="-333.2" font-family="Courier,monospace" font-size="11.00">«abstract»</text>
+<text text-anchor="start" x="456.239" y="-321.2" font-family="Courier,monospace" font-size="11.00">AbstractBoardingCard</text>
 </g>
 <!-- \\BoardingCards\\BoardingCardsTypes\\AbstractBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\GeneralBoardingCardAttributes -->
-<g id="edge4" class="edge"><title>\\BoardingCards\\BoardingCardsTypes\\AbstractBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\GeneralBoardingCardAttributes</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M448.151,-284.883C404.211,-285.399 347.817,-286.062 298.343,-286.644"/>
-<polygon fill="none" stroke="black" points="298.18,-283.146 288.222,-286.763 298.263,-290.145 298.18,-283.146"/>
+<g id="edge3" class="edge"><title>\\BoardingCards\\BoardingCardsTypes\\AbstractBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\GeneralBoardingCardAttributes</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M448.151,-328.014C404.211,-326.851 347.817,-325.36 298.343,-324.051"/>
+<polygon fill="none" stroke="black" points="298.311,-320.549 288.222,-323.783 298.126,-327.547 298.311,-320.549"/>
 </g>
 <!-- \\BoardingCards\\BoardingCardsTypes\\BusBoardingCard -->
-<g id="node13" class="node"><title>\\BoardingCards\\BoardingCardsTypes\\BusBoardingCard</title>
-<polygon fill="none" stroke="black" points="864.979,-238 746.979,-238 746.979,-202 864.979,-202 864.979,-238"/>
-<text text-anchor="middle" x="805.979" y="-217.2" font-family="Courier,monospace" font-size="11.00">BusBoardingCard</text>
+<g id="node11" class="node"><title>\\BoardingCards\\BoardingCardsTypes\\BusBoardingCard</title>
+<polygon fill="none" stroke="black" points="864.979,-318 746.979,-318 746.979,-282 864.979,-282 864.979,-318"/>
+<text text-anchor="middle" x="805.979" y="-297.2" font-family="Courier,monospace" font-size="11.00">BusBoardingCard</text>
 </g>
 <!-- \\BoardingCards\\BoardingCardsTypes\\BusBoardingCard&#45;&gt;\\BoardingCards\\BoardingCardsTypes\\AbstractBoardingCard -->
-<g id="edge5" class="edge"><title>\\BoardingCards\\BoardingCardsTypes\\BusBoardingCard&#45;&gt;\\BoardingCards\\BoardingCardsTypes\\AbstractBoardingCard</title>
-<path fill="none" stroke="black" d="M746.677,-233.339C707.227,-242.364 654.471,-254.434 610.349,-264.528"/>
-<polygon fill="none" stroke="black" points="609.463,-261.14 600.495,-266.783 611.024,-267.964 609.463,-261.14"/>
+<g id="edge4" class="edge"><title>\\BoardingCards\\BoardingCardsTypes\\BusBoardingCard&#45;&gt;\\BoardingCards\\BoardingCardsTypes\\AbstractBoardingCard</title>
+<path fill="none" stroke="black" d="M746.677,-306.252C707.31,-310.474 654.693,-316.117 610.627,-320.843"/>
+<polygon fill="none" stroke="black" points="610.065,-317.383 600.495,-321.929 610.812,-324.343 610.065,-317.383"/>
 </g>
 <!-- \\BoardingCards\\BoardingCardsTypes\\FlightBoardingCard -->
-<g id="node14" class="node"><title>\\BoardingCards\\BoardingCardsTypes\\FlightBoardingCard</title>
-<polygon fill="none" stroke="black" points="874.979,-346 736.979,-346 736.979,-310 874.979,-310 874.979,-346"/>
-<text text-anchor="middle" x="805.979" y="-325.2" font-family="Courier,monospace" font-size="11.00">FlightBoardingCard</text>
+<g id="node12" class="node"><title>\\BoardingCards\\BoardingCardsTypes\\FlightBoardingCard</title>
+<polygon fill="none" stroke="black" points="874.979,-426 736.979,-426 736.979,-390 874.979,-390 874.979,-426"/>
+<text text-anchor="middle" x="805.979" y="-405.2" font-family="Courier,monospace" font-size="11.00">FlightBoardingCard</text>
 </g>
 <!-- \\BoardingCards\\BoardingCardsTypes\\FlightBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\GateBoardingCardAttributes -->
-<g id="edge9" class="edge"><title>\\BoardingCards\\BoardingCardsTypes\\FlightBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\GateBoardingCardAttributes</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M523.239,-371C438.703,-375.493 422.552,-404.244 340,-423 323.429,-426.765 305.769,-430.278 288.497,-433.443"/>
-<polygon fill="none" stroke="black" points="287.604,-430.047 278.384,-435.266 288.846,-436.936 287.604,-430.047"/>
+<g id="edge8" class="edge"><title>\\BoardingCards\\BoardingCardsTypes\\FlightBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\GateBoardingCardAttributes</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M523.239,-422C440.433,-420.015 421.537,-441.425 340,-456 323.272,-458.99 305.53,-462.1 288.225,-465.101"/>
+<polygon fill="none" stroke="black" points="287.354,-461.699 278.097,-466.853 288.547,-468.597 287.354,-461.699"/>
 </g>
 <!-- \\BoardingCards\\BoardingCardsTypes\\FlightBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\BaggageBoardingCardAttributes -->
-<g id="edge10" class="edge"><title>\\BoardingCards\\BoardingCardsTypes\\FlightBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\BaggageBoardingCardAttributes</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M523.239,-371C448.277,-374.984 364.143,-381.151 298.293,-386.363"/>
-<polygon fill="none" stroke="black" points="297.991,-382.876 288.3,-387.158 298.546,-389.854 297.991,-382.876"/>
+<g id="edge9" class="edge"><title>\\BoardingCards\\BoardingCardsTypes\\FlightBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\BaggageBoardingCardAttributes</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M523.239,-422C448.378,-420.206 364.245,-421.904 298.371,-424.076"/>
+<polygon fill="none" stroke="black" points="298.25,-420.578 288.374,-424.414 298.487,-427.574 298.25,-420.578"/>
 </g>
 <!-- \\BoardingCards\\BoardingCardsTypes\\FlightBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\TransportationNumberBoardingCardAttributes -->
-<g id="edge8" class="edge"><title>\\BoardingCards\\BoardingCardsTypes\\FlightBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\TransportationNumberBoardingCardAttributes</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M523.239,-371C452.716,-374.748 374.152,-368.728 310.301,-361.22"/>
-<polygon fill="none" stroke="black" points="310.53,-357.722 300.183,-360.003 309.694,-364.672 310.53,-357.722"/>
+<g id="edge7" class="edge"><title>\\BoardingCards\\BoardingCardsTypes\\FlightBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\TransportationNumberBoardingCardAttributes</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M523.239,-422C481.578,-421.002 383.985,-407.083 303.954,-394.65"/>
+<polygon fill="none" stroke="black" points="304.208,-391.147 293.788,-393.064 303.129,-398.063 304.208,-391.147"/>
 </g>
 <!-- \\BoardingCards\\BoardingCardsTypes\\FlightBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\SeatableBoardingCardAttributes -->
-<g id="edge7" class="edge"><title>\\BoardingCards\\BoardingCardsTypes\\FlightBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\SeatableBoardingCardAttributes</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M736.969,-342.331C680.564,-353.279 598.104,-367.127 525.239,-371"/>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M523.239,-371C463.997,-374.149 454.116,-342.749 404,-311 373.508,-291.683 373.006,-275.611 340,-261 328.009,-255.692 315.074,-251.424 301.956,-247.992"/>
-<polygon fill="none" stroke="black" points="302.448,-244.509 291.902,-245.528 300.782,-251.308 302.448,-244.509"/>
+<g id="edge6" class="edge"><title>\\BoardingCards\\BoardingCardsTypes\\FlightBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\SeatableBoardingCardAttributes</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M736.898,-414.225C680.275,-418.725 597.551,-423.733 525.239,-422"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M523.239,-422C462.899,-420.554 452.474,-392.963 404,-357 371.945,-333.218 375.515,-312.216 340,-294 328.019,-287.855 314.918,-283.071 301.555,-279.352"/>
+<polygon fill="none" stroke="black" points="302.348,-275.942 291.79,-276.828 300.596,-282.72 302.348,-275.942"/>
 </g>
 <!-- \\BoardingCards\\BoardingCardsTypes\\FlightBoardingCard&#45;&gt;\\BoardingCards\\BoardingCardsTypes\\AbstractBoardingCard -->
-<g id="edge6" class="edge"><title>\\BoardingCards\\BoardingCardsTypes\\FlightBoardingCard&#45;&gt;\\BoardingCards\\BoardingCardsTypes\\AbstractBoardingCard</title>
-<path fill="none" stroke="black" d="M736.904,-317.293C698.731,-311.288 650.769,-303.744 610.156,-297.357"/>
-<polygon fill="none" stroke="black" points="610.692,-293.898 600.27,-295.802 609.605,-300.813 610.692,-293.898"/>
+<g id="edge5" class="edge"><title>\\BoardingCards\\BoardingCardsTypes\\FlightBoardingCard&#45;&gt;\\BoardingCards\\BoardingCardsTypes\\AbstractBoardingCard</title>
+<path fill="none" stroke="black" d="M740.098,-389.909C698.233,-378.236 643.642,-363.014 599.965,-350.836"/>
+<polygon fill="none" stroke="black" points="600.825,-347.442 590.252,-348.128 598.945,-354.185 600.825,-347.442"/>
 </g>
 <!-- \\BoardingCards\\BoardingCardsTypes\\TrainBoardingCard -->
-<g id="node15" class="node"><title>\\BoardingCards\\BoardingCardsTypes\\TrainBoardingCard</title>
-<polygon fill="none" stroke="black" points="871.479,-292 740.479,-292 740.479,-256 871.479,-256 871.479,-292"/>
-<text text-anchor="middle" x="805.979" y="-271.2" font-family="Courier,monospace" font-size="11.00">TrainBoardingCard</text>
+<g id="node13" class="node"><title>\\BoardingCards\\BoardingCardsTypes\\TrainBoardingCard</title>
+<polygon fill="none" stroke="black" points="871.479,-372 740.479,-372 740.479,-336 871.479,-336 871.479,-372"/>
+<text text-anchor="middle" x="805.979" y="-351.2" font-family="Courier,monospace" font-size="11.00">TrainBoardingCard</text>
 </g>
 <!-- \\BoardingCards\\BoardingCardsTypes\\TrainBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\TransportationNumberBoardingCardAttributes -->
-<g id="edge15" class="edge"><title>\\BoardingCards\\BoardingCardsTypes\\TrainBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\TransportationNumberBoardingCardAttributes</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M740.222,-291.408C711.152,-298.578 676.302,-306.294 644.479,-311 544.664,-325.761 431.652,-333.5 342.447,-337.555"/>
-<polygon fill="none" stroke="black" points="342.076,-334.067 332.241,-338.007 342.386,-341.061 342.076,-334.067"/>
+<g id="edge14" class="edge"><title>\\BoardingCards\\BoardingCardsTypes\\TrainBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\TransportationNumberBoardingCardAttributes</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M740.468,-356.178C647.108,-359.33 471.377,-365.263 342.082,-369.629"/>
+<polygon fill="none" stroke="black" points="341.95,-366.131 332.074,-369.967 342.186,-373.127 341.95,-366.131"/>
 </g>
 <!-- \\BoardingCards\\BoardingCardsTypes\\TrainBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\SeatableBoardingCardAttributes -->
-<g id="edge14" class="edge"><title>\\BoardingCards\\BoardingCardsTypes\\TrainBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\SeatableBoardingCardAttributes</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M740.237,-266.312C711.017,-263.057 676.046,-259.457 644.479,-257 528.154,-247.948 395.042,-241.757 301.77,-238.099"/>
-<polygon fill="none" stroke="black" points="301.864,-234.6 291.735,-237.709 301.592,-241.595 301.864,-234.6"/>
+<g id="edge13" class="edge"><title>\\BoardingCards\\BoardingCardsTypes\\TrainBoardingCard&#45;&gt;\\BoardingCards\\Contracts\\SeatableBoardingCardAttributes</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M740.381,-336.755C729.678,-333.661 718.731,-330.35 708.479,-327 679.602,-317.565 674.136,-309.579 644.479,-303 529.989,-277.601 396.068,-269.461 302.074,-267.156"/>
+<polygon fill="none" stroke="black" points="302.038,-263.655 291.962,-266.927 301.88,-270.653 302.038,-263.655"/>
 </g>
 <!-- \\BoardingCards\\BoardingCardsTypes\\TrainBoardingCard&#45;&gt;\\BoardingCards\\BoardingCardsTypes\\AbstractBoardingCard -->
-<g id="edge13" class="edge"><title>\\BoardingCards\\BoardingCardsTypes\\TrainBoardingCard&#45;&gt;\\BoardingCards\\BoardingCardsTypes\\AbstractBoardingCard</title>
-<path fill="none" stroke="black" d="M740.45,-276.307C701.842,-277.687 652.318,-279.457 610.513,-280.952"/>
-<polygon fill="none" stroke="black" points="610.209,-277.46 600.34,-281.315 610.459,-284.456 610.209,-277.46"/>
+<g id="edge12" class="edge"><title>\\BoardingCards\\BoardingCardsTypes\\TrainBoardingCard&#45;&gt;\\BoardingCards\\BoardingCardsTypes\\AbstractBoardingCard</title>
+<path fill="none" stroke="black" d="M740.45,-348.464C701.842,-345.151 652.318,-340.903 610.513,-337.316"/>
+<polygon fill="none" stroke="black" points="610.603,-333.811 600.34,-336.443 610.004,-340.785 610.603,-333.811"/>
+</g>
+<!-- \\BoardingCards\\OutputFormats\\StringOutputFormat -->
+<g id="node14" class="node"><title>\\BoardingCards\\OutputFormats\\StringOutputFormat</title>
+<polygon fill="none" stroke="black" points="874.979,-238 736.979,-238 736.979,-202 874.979,-202 874.979,-238"/>
+<text text-anchor="middle" x="805.979" y="-217.2" font-family="Courier,monospace" font-size="11.00">StringOutputFormat</text>
+</g>
+<!-- \\BoardingCards\\OutputFormats\\StringOutputFormat&#45;&gt;\\BoardingCards\\Contracts\\OutputFormat -->
+<g id="edge11" class="edge"><title>\\BoardingCards\\OutputFormats\\StringOutputFormat&#45;&gt;\\BoardingCards\\Contracts\\OutputFormat</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M736.959,-205.98C708.515,-200.791 675.03,-195.552 644.479,-193 499.769,-180.913 328.884,-195.932 241.257,-205.758"/>
+<polygon fill="none" stroke="black" points="240.786,-202.289 231.247,-206.899 241.579,-209.244 240.786,-202.289"/>
+</g>
+<!-- \\BoardingCards\\OutputFormats\\AbstractOutputFormat -->
+<g id="node15" class="node"><title>\\BoardingCards\\OutputFormats\\AbstractOutputFormat</title>
+<polygon fill="none" stroke="black" points="600.239,-238 448.239,-238 448.239,-202 600.239,-202 600.239,-238"/>
+<text text-anchor="start" x="490.239" y="-223.2" font-family="Courier,monospace" font-size="11.00">«abstract»</text>
+<text text-anchor="start" x="456.239" y="-211.2" font-family="Courier,monospace" font-size="11.00">AbstractOutputFormat</text>
+</g>
+<!-- \\BoardingCards\\OutputFormats\\StringOutputFormat&#45;&gt;\\BoardingCards\\OutputFormats\\AbstractOutputFormat -->
+<g id="edge10" class="edge"><title>\\BoardingCards\\OutputFormats\\StringOutputFormat&#45;&gt;\\BoardingCards\\OutputFormats\\AbstractOutputFormat</title>
+<path fill="none" stroke="black" d="M736.904,-220C698.812,-220 650.972,-220 610.414,-220"/>
+<polygon fill="none" stroke="black" points="610.27,-216.5 600.27,-220 610.27,-223.5 610.27,-216.5"/>
+</g>
+<!-- \\BoardingCards\\OutputFormats\\AbstractOutputFormat&#45;&gt;\\BoardingCards\\Contracts\\OutputFormat -->
+<g id="edge15" class="edge"><title>\\BoardingCards\\OutputFormats\\AbstractOutputFormat&#45;&gt;\\BoardingCards\\Contracts\\OutputFormat</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M448.151,-218.455C385.881,-217.174 298.6,-215.378 241.446,-214.202"/>
+<polygon fill="none" stroke="black" points="241.207,-210.697 231.137,-213.99 241.063,-217.695 241.207,-210.697"/>
 </g>
 </g>
 </svg>

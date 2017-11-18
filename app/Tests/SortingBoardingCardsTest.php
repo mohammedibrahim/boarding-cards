@@ -1,4 +1,14 @@
-<?php namespace BoardingCards\Tests;
+<?php
+/**
+ * Boarding Cards Sorter testing cases
+ *
+ * @package     Boarding Cards
+ * @author      Mohamed Ibrahim <m.ibrahim@integrateddev.com>
+ * @version     v.1.0 (08/11/2017)
+ * @copyright   Copyright (c) 2016, Integrated Development
+ */
+
+namespace BoardingCards\Tests;
 
 use BoardingCards\BoardingCardsTypes\BusBoardingCard;
 use BoardingCards\BoardingCardsTypes\FlightBoardingCard;

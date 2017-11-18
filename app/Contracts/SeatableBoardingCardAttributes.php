@@ -1,4 +1,14 @@
-<?php namespace BoardingCards\Contracts;
+<?php
+/**
+ * Seatable Boarding cards interface
+ *
+ * @package     Boarding Cards
+ * @author      Mohamed Ibrahim <m.ibrahim@integrateddev.com>
+ * @version     v.1.0 (08/11/2017)
+ * @copyright   Copyright (c) 2016, Integrated Development
+ */
+
+namespace BoardingCards\Contracts;
 /**
  * Seatable Borading card contact for cards that have seat number.
  *
@@ -10,6 +20,7 @@ Interface SeatableBoardingCardAttributes {
     /**
      * Set Seat Number.
      *
+     * @param $seatNumber
      * @return mixed
      */
     public function setSeatNumber($seatNumber);

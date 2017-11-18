@@ -1,4 +1,14 @@
-<?php namespace BoardingCards\BoardingCardsTypes;
+<?php
+/**
+ * Flight Boarding card class
+ *
+ * @package     Boarding Cards
+ * @author      Mohamed Ibrahim <m.ibrahim@integrateddev.com>
+ * @version     v.1.0 (08/11/2017)
+ * @copyright   Copyright (c) 2016, Integrated Development
+ */
+
+namespace BoardingCards\BoardingCardsTypes;
 
 use BoardingCards\Contracts\BaggageBoardingCardAttributes;
 use BoardingCards\Contracts\GateBoardingCardAttributes;
@@ -18,6 +28,7 @@ class FlightBoardingCard extends AbstractBoardingCard implements
     BaggageBoardingCardAttributes
 {
     /**
+     * Appended Attributes
      *
      * @var array
      */
@@ -82,7 +93,8 @@ class FlightBoardingCard extends AbstractBoardingCard implements
     /**
      * Set Gate Number.
      *
-     * @return mixed
+     * @param $gateNumber
+     * @return $this
      */
     public function setGateNumber($gateNumber)
     {
@@ -104,7 +116,8 @@ class FlightBoardingCard extends AbstractBoardingCard implements
     /**
      * Set Seat Number.
      *
-     * @return mixed
+     * @param $seatNumber
+     * @return $this
      */
     public function setSeatNumber($seatNumber)
     {
@@ -126,7 +139,8 @@ class FlightBoardingCard extends AbstractBoardingCard implements
     /**
      * Set Transportation Number.
      *
-     * @return mixed
+     * @param $transportationNumber
+     * @return $this
      */
     public function setTransportationNumber($transportationNumber)
     {

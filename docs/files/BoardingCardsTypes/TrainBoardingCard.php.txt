@@ -1,4 +1,14 @@
-<?php namespace BoardingCards\BoardingCardsTypes;
+<?php
+/**
+ * Train Boarding card class
+ *
+ * @package     Boarding Cards
+ * @author      Mohamed Ibrahim <m.ibrahim@integrateddev.com>
+ * @version     v.1.0 (08/11/2017)
+ * @copyright   Copyright (c) 2016, Integrated Development
+ */
+
+namespace BoardingCards\BoardingCardsTypes;
 
 use BoardingCards\Contracts\SeatableBoardingCardAttributes;
 use BoardingCards\Contracts\TransportationNumberBoardingCardAttributes;
@@ -40,7 +50,8 @@ class TrainBoardingCard extends AbstractBoardingCard implements
     /**
      * Set Seat Number.
      *
-     * @return mixed
+     * @param $seatNumber
+     * @return $this
      */
     public function setSeatNumber($seatNumber)
     {
@@ -62,7 +73,8 @@ class TrainBoardingCard extends AbstractBoardingCard implements
     /**
      * Set Transportation Number.
      *
-     * @return mixed
+     * @param $transportationNumber
+     * @return $this
      */
     public function setTransportationNumber($transportationNumber)
     {

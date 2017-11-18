@@ -1,4 +1,14 @@
-<?php namespace BoardingCards\BoardingCardsTypes;
+<?php
+/**
+ * Boarding Card Abstract Class
+ *
+ * @package     Boarding Cards
+ * @author      Mohamed Ibrahim <m.ibrahim@integrateddev.com>
+ * @version     v.1.0 (08/11/2017)
+ * @copyright   Copyright (c) 2016, Integrated Development
+ */
+
+namespace BoardingCards\BoardingCardsTypes;
 
 use BoardingCards\Contracts\GeneralBoardingCardAttributes;
 use BoardingCards\Exceptions\BoardingCardsException;
@@ -29,16 +39,22 @@ Abstract class AbstractBoardingCard implements GeneralBoardingCardAttributes
     protected $_appendedDefaults = [];
 
     /**
+     * To City
+     *
      * @var To city
      */
     protected $_to;
 
     /**
+     * From City
+     *
      * @var From City
      */
     protected $_from;
 
     /**
+     * Get From City
+     *
      * @return From City
      */
     public function getFrom()
@@ -94,9 +110,11 @@ Abstract class AbstractBoardingCard implements GeneralBoardingCardAttributes
     }
 
     /**
-     * Create Boarding Card
+     * Create Boarding Card.
      *
-     * @return mixed
+     * @param array $cardBoardingDetails
+     * @return $this
+     * @throws BoardingCardsException
      */
     public function createBoardingCard(array $cardBoardingDetails)
     {

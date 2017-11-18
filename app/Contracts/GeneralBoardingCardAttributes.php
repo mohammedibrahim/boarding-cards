@@ -1,4 +1,14 @@
-<?php namespace BoardingCards\Contracts;
+<?php
+/**
+ * General Boarding cards interface
+ *
+ * @package     Boarding Cards
+ * @author      Mohamed Ibrahim <m.ibrahim@integrateddev.com>
+ * @version     v.1.0 (08/11/2017)
+ * @copyright   Copyright (c) 2016, Integrated Development
+ */
+
+namespace BoardingCards\Contracts;
 
 /**
  * Contains common card attributes between different boarding cards type.
@@ -11,6 +21,7 @@ Interface GeneralBoardingCardAttributes {
     /**
      * Set From city.
      *
+     * @param $from
      * @return mixed
      */
     public function setFrom($from);
@@ -24,6 +35,8 @@ Interface GeneralBoardingCardAttributes {
 
     /**
      * Set To City
+     *
+     * @param $to
      * @return mixed
      */
     public function setTo($to);

@@ -1,4 +1,14 @@
-<?php namespace BoardingCards\BoardingCardsTypes;
+<?php
+/**
+ * Bus Boarding Card Class
+ *
+ * @package     Boarding Cards
+ * @author      Mohamed Ibrahim <m.ibrahim@integrateddev.com>
+ * @version     v.1.0 (08/11/2017)
+ * @copyright   Copyright (c) 2016, Integrated Development
+ */
+
+namespace BoardingCards\BoardingCardsTypes;
 
 /**
  * Bus Boarding card class.

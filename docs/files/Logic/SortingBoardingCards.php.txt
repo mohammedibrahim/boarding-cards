@@ -1,4 +1,14 @@
-<?php namespace BoardingCards\Logic;
+<?php
+/**
+ * Boarding Cards Sorter
+ *
+ * @package     Boarding Cards
+ * @author      Mohamed Ibrahim <m.ibrahim@integrateddev.com>
+ * @version     v.1.0 (08/11/2017)
+ * @copyright   Copyright (c) 2016, Integrated Development
+ */
+
+namespace BoardingCards\Logic;
 
 use BoardingCards\BoardingCardsTypes\AbstractBoardingCard;
 use BoardingCards\Exceptions\BoardingCardsException;

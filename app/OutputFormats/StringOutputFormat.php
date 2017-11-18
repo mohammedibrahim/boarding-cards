@@ -20,6 +20,32 @@ use BoardingCards\Contracts\OutputFormat;
  */
 class StringOutputFormat extends AbstractOutputFormat implements OutputFormat
 {
+
+    private $_separator;
+
+    /**
+     * Constructor
+     *
+     * StringOutputFormat constructor.
+     * @param string $separator
+     */
+    public function __construct($separator = "\n")
+    {
+        $this->_separator = $separator;
+    }
+
+    /**
+     * Create New Instance.
+     *
+     * @param string $separator
+     * @return mixed
+     */
+    static public function instance($separator = "\n")
+    {
+        $instance = get_called_class();
+        return new $instance($separator);
+    }
+
     /**
      * Format boarding card output
      *
@@ -35,11 +61,12 @@ class StringOutputFormat extends AbstractOutputFormat implements OutputFormat
      * Output boarding cards
      *
      * @param $boardingCardsToStrings
-     * @param string $separator
      * @return mixed
      */
-    public function allCardsFormat($boardingCardsToStrings, $separator = '')
+    public function allCardsFormat($boardingCardsToStrings)
     {
+        $separator = $this->_separator;
+
         return implode($separator, $boardingCardsToStrings) . $separator;
     }
 }

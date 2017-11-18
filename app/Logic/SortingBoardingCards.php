@@ -121,12 +121,11 @@ class SortingBoardingCards
      * Return boarding cards as string.
      *
      * @param OutputFormat $format
-     * @param string $separator
      * @param bool $echo
      * @return string
      * @throws BoardingCardsException
      */
-    public function output(OutputFormat $format, $separator = "\n", $echo = true)
+    public function output(OutputFormat $format, $echo = true)
     {
         if (empty($this->_boardingCards)) {
             throw new BoardingCardsException('You must add at least one boarding card!');
@@ -140,7 +139,7 @@ class SortingBoardingCards
 
         $boardingCardsToStrings[] = 'You have arrived at your final destination.';
 
-        $output = $format->allCardsFormat($boardingCardsToStrings, $separator);
+        $output = $format->allCardsFormat($boardingCardsToStrings);
 
         if (!$echo) {
             return $output;

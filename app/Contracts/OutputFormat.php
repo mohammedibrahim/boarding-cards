@@ -30,8 +30,7 @@ interface OutputFormat
      * Output boarding cards
      *
      * @param $boardingCardsToStrings
-     * @param string $separator
      * @return mixed
      */
-    public function allCardsFormat($boardingCardsToStrings, $separator = '');
+    public function allCardsFormat($boardingCardsToStrings);
 }

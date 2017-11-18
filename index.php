@@ -67,7 +67,7 @@ class MainClass
             'transportation_number' => '78A'
         ]));
 
-        $boardingCards->sort()->output(StringOutputFormat::instance());
+        $boardingCards->sort()->output(StringOutputFormat::instance("\n"));
     }
 
 }

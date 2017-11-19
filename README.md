@@ -454,7 +454,7 @@ class NewOutputFormat extends AbstractStringOutputFormat implements OutputFormat
     }
 }
 ```
-
+    
 To use it
 ```
 $boardingCards->sort()->output(NewOutputFormat::instance());

@@ -46,5 +46,4 @@ abstract class AbstractOutputFormat implements OutputFormat
      * @return mixed
      */
     abstract public function allCardsFormat($boardingCards);
-
 }

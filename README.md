@@ -17,6 +17,9 @@ A to point B via several stops on the way. All of the boarding cards are out of 
 know where your journey starts, nor where it ends. Each boarding card contains information
 about seat assignment, and means of transportation (such as flight number, bus number etc).
 
+![](https://raw.githubusercontent.com/mohammedibrahim/boarding-cards/master/docs/images/download.png)
+
+
 ## Installation
 Using composer :
 

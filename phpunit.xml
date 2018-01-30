@@ -4,7 +4,7 @@
     </testsuite>
     <filter>
         <whitelist>
-            <directory>./app</directory>
+            <directory>./app/Logic</directory>
         </whitelist>
     </filter>
 </phpunit>

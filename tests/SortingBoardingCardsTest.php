@@ -13,6 +13,7 @@ namespace BoardingCards\Tests;
 use BoardingCards\BoardingCardsTypes\BusBoardingCard;
 use BoardingCards\BoardingCardsTypes\FlightBoardingCard;
 use BoardingCards\BoardingCardsTypes\TrainBoardingCard;
+use BoardingCards\Contracts\OutputFormat;
 use BoardingCards\Exceptions\BoardingCardsException;
 use BoardingCards\Logic\SortingBoardingCards;
 use BoardingCards\OutputFormats\StringOutputFormat;
@@ -21,10 +22,16 @@ use PHPUnit\Framework\TestCase;
 /**
  * Boarding Cards Testing Cases
  *
- * @covers Sorting Tests.
+ * @covers \BoardingCards\Logic\SortingBoardingCards
  */
 final class SortingBoardingCardsTest extends TestCase
 {
+    protected static $boardingCards;
+
+    public static function setUpBeforeClass()
+    {
+        self::$boardingCards = new SortingBoardingCards();
+    }
 
     /**
      * Test if one or more tickets are missing!
@@ -148,13 +155,13 @@ final class SortingBoardingCardsTest extends TestCase
     }
 
     /**
-     * Test Sorting Results
+     * Test add boarding card
+     *
+     * @covers \BoardingCards\Logic\SortingBoardingCards::addBoardingCard
      */
-    public function testSortingResult()
+    public function testAddBoardingCard()
     {
-        $boardingCards = new SortingBoardingCards();
-
-        $boardingCards->addBoardingCard(FlightBoardingCard::instance()->createBoardingCard([
+        self::$boardingCards->addBoardingCard(FlightBoardingCard::instance()->createBoardingCard([
             'from' => 'Stockholm',
             'to' => 'New York JFK',
             'seat_number' => '7B',
@@ -163,12 +170,12 @@ final class SortingBoardingCardsTest extends TestCase
             'baggage_details' => 'Baggage will we automatically transferred from your last leg',
         ]));
 
-        $boardingCards->addBoardingCard(BusBoardingCard::instance()->createBoardingCard([
+        self::$boardingCards->addBoardingCard(BusBoardingCard::instance()->createBoardingCard([
             'from' => 'Barcelona',
             'to' => 'Gerona Airport',
         ]));
 
-        $boardingCards->addBoardingCard(FlightBoardingCard::instance()->createBoardingCard([
+        self::$boardingCards->addBoardingCard(FlightBoardingCard::instance()->createBoardingCard([
             'from' => 'Gerona Airport',
             'to' => 'Stockholm',
             'seat_number' => '3A',
@@ -177,14 +184,40 @@ final class SortingBoardingCardsTest extends TestCase
             'baggage_details' => 'Baggage drop at ticket counter 344',
         ]));
 
-        $boardingCards->addBoardingCard(TrainBoardingCard::instance()->createBoardingCard([
+        self::$boardingCards->addBoardingCard(TrainBoardingCard::instance()->createBoardingCard([
             'from' => 'Madrid',
             'to' => 'Barcelona',
             'seat_number' => '45B',
             'transportation_number' => '78A'
         ]));
 
-        $result = $boardingCards->sort()->getBoardingCards();
+        $this->assertEquals(4, count(self::$boardingCards->getBoardingCards()));
+
+        return true;
+    }
+
+    /**
+     * Test add boarding card
+     *
+     * @covers \BoardingCards\Logic\SortingBoardingCards::getBoardingCards
+     *
+     * @depends testAddBoardingCard
+     */
+    public function testGetBoardingCards()
+    {
+        $this->assertEquals(4, count(self::$boardingCards->getBoardingCards()));
+    }
+
+    /**
+     * Test Sorting Results
+     *
+     * @covers \BoardingCards\Logic\SortingBoardingCards::sort
+     *
+     * @depends testGetBoardingCards
+     */
+    public function testSort()
+    {
+        $result = self::$boardingCards->sort()->getBoardingCards();
 
         $fromCity = $result[0]->getFrom();
         $secondCity = $result[1]->getFrom();
@@ -197,46 +230,23 @@ final class SortingBoardingCardsTest extends TestCase
         $this->assertEquals($thirdCity, 'Gerona Airport');
         $this->assertEquals($fourthCity, 'Stockholm');
         $this->assertEquals($lastCity, 'New York JFK');
+
+
+        $format = StringOutputFormat::instance();
+
+        return $format;
     }
 
     /**
      * Test String result Output as text.
+     *
+     * @covers \BoardingCards\Logic\SortingBoardingCards::output
+     *
+     * @depends testSort
      */
-    public function testValidateSortingResultOutputAsString()
+    public function testOutput(OutputFormat $format, $echo = true)
     {
-        $boardingCards = new SortingBoardingCards();
-
-        $boardingCards->addBoardingCard(FlightBoardingCard::instance()->createBoardingCard([
-            'from' => 'Stockholm',
-            'to' => 'New York JFK',
-            'seat_number' => '7B',
-            'transportation_number' => 'SK22',
-            'gate_number' => '22',
-            'baggage_details' => 'Baggage will we automatically transferred from your last leg',
-        ]));
-
-        $boardingCards->addBoardingCard(BusBoardingCard::instance()->createBoardingCard([
-            'from' => 'Barcelona',
-            'to' => 'Gerona Airport',
-        ]));
-
-        $boardingCards->addBoardingCard(FlightBoardingCard::instance()->createBoardingCard([
-            'from' => 'Gerona Airport',
-            'to' => 'Stockholm',
-            'seat_number' => '3A',
-            'transportation_number' => 'SK455',
-            'gate_number' => '45B',
-            'baggage_details' => 'Baggage drop at ticket counter 344',
-        ]));
-
-        $boardingCards->addBoardingCard(TrainBoardingCard::instance()->createBoardingCard([
-            'from' => 'Madrid',
-            'to' => 'Barcelona',
-            'seat_number' => '45B',
-            'transportation_number' => '78A'
-        ]));
-
-        $result = $boardingCards->sort()->output(StringOutputFormat::instance(), false);
+        $result = self::$boardingCards->sort()->output($format, false);
 
         $this->assertEquals(
             $result, "Take train 78A from Madrid to Barcelona. Sit in seat 45B.
@@ -246,5 +256,7 @@ From Stockholm, take flight SK22 to New York JFK. Gate 22, Seat 7B, Baggage will
 You have arrived at your final destination.
 "
         );
+
+        return true;
     }
 }

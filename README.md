@@ -17,10 +17,13 @@ A to point B via several stops on the way. All of the boarding cards are out of 
 know where your journey starts, nor where it ends. Each boarding card contains information
 about seat assignment, and means of transportation (such as flight number, bus number etc).
 
+![](https://raw.githubusercontent.com/mohammedibrahim/boarding-cards/master/docs/images/download.png)
+
+
 ## Installation
 Using composer :
 
-```
+```bash
 git clone http://github.com/mohammedibrahim/boarding-cards.git
 cd boarding-cards
 composer install
@@ -30,7 +33,7 @@ php index.php
 ## How To use
 To enter the details of the boarding cards.
 
-```
+```php
 $boardingCards = new SortingBoardingCards();
 
 //Flight Boarding Card
@@ -82,7 +85,7 @@ boarding-cards -> app -> BoardingCardsTypes
 
 Create a new class
 
-```
+```php
 <?php namespace BoardingCards\BoardingCardsTypes;
 
 /**
@@ -108,14 +111,14 @@ class NewTransportationCard extends AbstractBoardingCard
 
 By default Each New Transportation Card has a default attributes 
 
-```
+```php
 'from' => 'Barcelona',
 'to' => 'Gerona Airport',
 ```
 
 To add new attribute like seat_number and transportation_number, You must implement it's interfaces.
 
-```
+```php
 <?php namespace BoardingCards\BoardingCardsTypes;
 
 use BoardingCards\Contracts\SeatableBoardingCardAttributes;
@@ -212,7 +215,7 @@ class NewTransportationCard extends AbstractBoardingCard implements
 }
 ```
 Available custom attributes for boarding cards is 
-```
+```php
 //Baggage Details
 //'baggage_details' => 'Baggage will we automatically transferred from your last leg',
 
@@ -246,7 +249,7 @@ boarding-cards -> app -> Contracts
 
 Create a new interface
 
-```
+```php
 <?php namespace BoardingCards\Contracts;
 /**
  * Custom Borading card attribute.
@@ -272,7 +275,7 @@ Interface CustomBoardingCardAttribute {
 ```
 
 Implement it to your boarding card class
-```
+```php
 <?php namespace BoardingCards\BoardingCardsTypes;
 
 use BoardingCards\Contracts\SeatableBoardingCardAttributes;
@@ -421,7 +424,7 @@ boarding-cards -> app -> OutputFormater
 ```
 Create a new class that extend AbstractStringOutputFormat class and implement OutputFormat interface
  
-```
+```php
 /**
  * New output format.
  *
@@ -456,7 +459,7 @@ class NewOutputFormat extends AbstractStringOutputFormat implements OutputFormat
 ```
     
 To use it
-```
+```php
 $boardingCards->sort()->output(NewOutputFormat::instance());
 ```
 
@@ -465,7 +468,7 @@ $boardingCards->sort()->output(NewOutputFormat::instance());
 To View php docs 
 
 Go to 
-```
+```html
 http://[your_app_url]/docs/index.html
 ```
 
@@ -473,7 +476,7 @@ To Update docs
 
 At app root directory Run
 
-```
+```bash
 php vendor/bin/phpdoc -d app/ -t docs --title="Boarding Cards Sorter"
 ```
 

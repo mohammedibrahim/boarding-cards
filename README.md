@@ -484,5 +484,5 @@ To Run test cases. From app root directory
 Run
 
 ```
-php vendor/bin/phpunit app/Tests/SortingBoardingCardsTest.php --testdox
+php vendor/bin/phpunit tests/SortingBoardingCardsTest.php --testdox
 ```

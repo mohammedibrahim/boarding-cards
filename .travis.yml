@@ -15,5 +15,5 @@ script:
 - "phpunit --testsuite=unit --coverage-text --coverage-clover build/logs/clover.xml"
 
 after_script:
-- CODECLIMATE_REPO_TOKEN="8333cb9eaab3bb5c249b51564d7b20377aace86c630b7d7b2a6d256b1fc6e9f6" vendor/bin/test-reporter --stdout > codeclimate.json
+- CODECLIMATE_REPO_TOKEN="0301d150bb56bd0f74f9daca051da3540f120393badc1dca3a3d0e263ab39da2" vendor/bin/test-reporter --stdout > codeclimate.json
 - "sh -c 'if [ \"$TRAVIS_PHP_VERSION\" != \"hhvm\" ]; then curl -X POST -d @codeclimate.json -H \"Content-Type: application/json\" -H \"User-Agent: Code Climate (PHP Test Reporter v0.1.1)\" https://codeclimate.com/test_reports  ; fi'"

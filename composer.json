@@ -3,7 +3,7 @@
     "description": "Sort Boarding cards",
     "require-dev": {
         "phpunit/phpunit": "^6.4",
-        "dompdf/dompdf": "^0.8.1",
+        "dompdf/dompdf": "^2.0.2",
         "phpdocumentor/reflection-docblock": "~2.0",
         "phpdocumentor/phpdocumentor": "^2.9"
     },
